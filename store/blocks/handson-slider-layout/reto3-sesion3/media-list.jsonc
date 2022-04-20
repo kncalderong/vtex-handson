@@ -1,0 +1,52 @@
+{
+    "list-context.media-list#demo": {
+        "children": ["slider-layout#evoluciona-slider"],
+        "props": {
+            "height": 420,
+            "mediaList": [
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-1",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-2",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-3",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "video": "video#under-armour"
+                }
+            ]
+        }
+    },
+
+    "link#link-video": {
+        "props": {
+            "href": "/video-prueba",
+            "target": "_blank"
+        },
+        "children": ["video#under-armour"]
+    },
+    "video#under-armour": {
+        "props": {
+            "src": "https://blacksip.com/imgload/Forus-Colombia/videos/under_armour/VIDEO_BRND_GOTG_Charlotte_Attract.mp4",
+            "autoplay": "true",
+            "loop": true
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "store.home": {
-        "blocks": ["list-context.image-list#evoluciona"]
+        "blocks": ["list-context.media-list#demo"]
     }
 }
 
