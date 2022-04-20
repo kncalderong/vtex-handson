@@ -1,0 +1,108 @@
+{
+    //info responsive
+    "flex-layout.col#info":{
+        "children":[
+            "rich-text#titulo-pavo",
+            "rich-text#descripcion-pavo",
+            "flex-layout.row#iconos"
+        ]
+    },
+    "rich-text#titulo-pavo":{
+        "props":{
+            "text":"## Pavo dorado relleno al horno"
+        }
+    },
+    "rich-text#descripcion-pavo":{
+        "props":{
+            "text":"Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamon serrano para celebrar en navidadcon toda la familia"
+        }
+    },
+    "flex-layout.row#iconos":{
+        "children":[
+            "flex-layout.col#iconos-container"
+        ]
+    },
+    "flex-layout.col#iconos-container":{
+        "children":[
+            "responsive-layout.desktop#info-responsive",
+            "responsive-layout.tablet#responsive-tablet-info",
+            "responsive-layout.phone#info-responsive"
+        ]
+    },
+    "responsive-layout.desktop#info-responsive":{
+        "children":[
+            "flex-layout.row#row-1",
+            "flex-layout.row#row-2"
+        ]
+    },
+   
+    "responsive-layout.tablet#responsive-tablet-info":{
+        "children":[
+            "flex-layout.row#row-1",
+            "flex-layout.row#row-2"
+        ]
+    },
+
+
+    "flex-layout.row#row-1":{
+        "children":[
+            "rich-text#info-desktop",
+            "rich-text#info-desktop",
+            "rich-text#info-desktop"
+        ]
+    },
+    "flex-layout.row#row-2":{
+        "children":[
+            "rich-text#info-desktop",
+            "rich-text#info-desktop",
+            "rich-text#info-desktop"
+        ]
+    },
+
+    
+    "rich-text#info-desktop":{
+        "props":{
+            "text":"text-desktop"
+        }
+    },
+    "responsive-layout.phone#info-responsive":{
+        "children":[
+            "flex-layout.row#phone-row-1",
+            "flex-layout.row#phone-row-2",
+            "flex-layout.row#phone-row-3"
+        ]
+    },
+    "rich-text#info-phone":{
+        "props":{
+            "text":"text-phone"
+        }
+    },
+
+    "flex-layout.row#phone-row-1":{
+        "props":{
+            "preserveLayoutOnMobile":true
+        },
+        "children":[
+            "rich-text#info-phone",
+            "rich-text#info-phone"
+        ]
+    },
+    "flex-layout.row#phone-row-2":{
+        "props":{
+            "preserveLayoutOnMobile":true
+        },
+        "children":[
+            "rich-text#info-phone",
+            "rich-text#info-phone"
+        ]
+    },
+    "flex-layout.row#phone-row-3":{
+        "props":{
+            "preserveLayoutOnMobile":true
+        },
+        "children":[
+            "rich-text#info-phone",
+            "rich-text#info-phone"
+        ]
+    }
+}

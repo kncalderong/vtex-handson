@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#responsive": {
+        "children": ["flex-layout.col#imagen", "flex-layout.col#info"]
+    },
+
+    "flex-layout.col#imagen": {
+        "children": [
+            "responsive-layout.desktop#responsive",
+            "responsive-layout.tablet#responsive",
+            "responsive-layout.phone#responsive"
+        ]
+    },
+    "responsive-layout.desktop#responsive": {
+        "children": ["image#tablet"]
+    },
+    "responsive-layout.tablet#responsive": {
+        "children": ["image#tablet"]
+    },
+    "image#tablet": {
+        "props": {
+            "src": "https://imgur.com/ipQipBB.jpg"
+        }
+    },
+    "responsive-layout.phone#responsive": {
+        "children": ["image#phone"]
+    },
+    "image#phone": {
+        "props": {
+            "src": "https://imgur.com/g4HOOrr.jpg"
+        }
+    }
+}
