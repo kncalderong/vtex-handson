@@ -1,9 +1,11 @@
 {
     "store.home": {
         "blocks": [
-            /*reto1*/
+            /*reto1-sesion1*/
             "flex-layout.row#promesas",
-            "flex-layout.row#categorias"
+            "flex-layout.row#categorias",
+            /*reto2-sesion2*/
+            "flex-layout.row#arrivals"
         ]
     }
 }

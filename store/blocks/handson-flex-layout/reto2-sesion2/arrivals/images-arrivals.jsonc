@@ -1,0 +1,74 @@
+{
+    "flex-layout.col#images-arrivals": {
+        "children": ["flex-layout.row#images-container-arrivals"]
+    },
+    "flex-layout.row#images-container-arrivals": {
+        "children": [
+            "flex-layout.col#categoria-1-arrivals",
+            "flex-layout.col#categoria-2-arrivals",
+            "flex-layout.col#categoria-3-arrivals"
+        ]
+    },
+
+    "flex-layout.col#categoria-1-arrivals": {
+        "children": ["rich-text#categoria1-text", "link#image-1-arrivals"]
+    },
+    "rich-text#categoria1-text": {
+        "props": {
+            "text": "**Shipping discount**\n Up to $20"
+        }
+    },
+    "flex-layout.col#categoria-2-arrivals": {
+        "children": ["rich-text#categoria2-text", "link#image-2-arrivals"]
+    },
+    "rich-text#categoria2-text": {
+        "props": {
+            "text": "**2022 trends**\n stay ahead the curve"
+        }
+    },
+    "flex-layout.col#categoria-3-arrivals": {
+        "children": ["rich-text#categoria3-text", "link#image-3-arrivals"]
+    },
+    "rich-text#categoria3-text": {
+        "props": {
+            "text": "**Verified manufisdf**\n US +1M"
+        }
+    },
+
+    "link#image-1-arrivals": {
+        "props": {
+            "href": "/categoria-1",
+            "target": "_blank"
+        },
+        "children": ["image#image-1-arrivals"]
+    },
+    "image#image-1-arrivals": {
+        "props": {
+            "src": "https://imgur.com/u0KnAfL.jpg"
+        }
+    },
+    "link#image-2-arrivals": {
+        "props": {
+            "href": "/categoria-2",
+            "target": "_blank"
+        },
+        "children": ["image#image-2-arrivals"]
+    },
+    "image#image-2-arrivals": {
+        "props": {
+            "src": "https://imgur.com/QJVSA3f.jpg"
+        }
+    },
+    "link#image-3-arrivals": {
+        "props": {
+            "href": "/categoria-3",
+            "target": "_blank"
+        },
+        "children": ["image#image-3-arrivals"]
+    },
+    "image#image-3-arrivals": {
+        "props": {
+            "src": "https://imgur.com/JsCrWhS.jpg"
+        }
+    }
+}

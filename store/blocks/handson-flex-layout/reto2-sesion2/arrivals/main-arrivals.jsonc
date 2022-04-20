@@ -1,0 +1,26 @@
+{
+    "flex-layout.col#main-arrivals":{
+        "children":[
+            "rich-text#titulo-arrivals",
+            "rich-text#descripcion-arrivals",
+            "link#vermas-arrivals"
+        ]
+    },
+    "rich-text#titulo-arrivals":{
+        "props":{
+            "text":"#### Latest arrivals and trends release"
+        }
+    },
+    "rich-text#descripcion-arrivals":{
+        "props":{
+            "text":"##### New posibilities. Better access"
+        }
+    },
+    "link#vermas-arrivals":{
+        "props":{
+            "href":"/new-arrivals",
+            "target":"_blank",
+            "label":"ver mas diferente"
+            }    
+    }
+}
