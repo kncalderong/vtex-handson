@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#promesas-slider-container": {
+        "children": ["slider-layout#promesas-slider"]
+    },
+    "slider-layout#promesas-slider": {
+        "props": {
+            "centerMode": {
+                "desktop": "disabled",
+                "tablet": "to-the-left",
+                "phone": "to-the-left"
+            },
+            "showPaginationDots": "never",
+            "showNavigationArrows": "mobileOnly"
+        },
+        "children": [
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa",
+            "flex-layout.col#promesa"
+        ]
+    }
+}

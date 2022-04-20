@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#promesa": {
+        "children": ["flex-layout.row#promesa-container"]
+    },
+    "flex-layout.row#promesa-container": {
+        "children": ["image#promesa", "rich-text#promesa-text"]
+    },
+    "image#promesa": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+        }
+    },
+    "rich-text#promesa-text": {
+        "props": {
+            "text": " **this is** the text"
+        }
+    }
+}
