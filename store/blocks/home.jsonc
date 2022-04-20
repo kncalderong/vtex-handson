@@ -1,5 +1,9 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            /*reto1*/
+            "flex-layout.row#promesas",
+            "flex-layout.row#categorias"
+        ]
     }
 }

@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#categorias": {
+        "children": [
+            "rich-text#pregunta",
+            "flex-layout.col#categorias-container"
+        ]
+    },
+    "flex-layout.col#categorias-container": {
+        "props": {
+            "width": "80%"
+        },
+        "children": ["flex-layout.row#categorias-container"]
+    },
+    "flex-layout.row#categorias-container": {
+        "children": [
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria",
+            "flex-layout.col#categoria"
+        ]
+    },
+    "flex-layout.col#categoria": {
+        "children": ["image#categoria", "rich-text#categoria-text"]
+    },
+
+    "image#categoria": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-text": {
+        "props": {
+            "text": "this is the text"
+        }
+    },
+
+    "rich-text#pregunta": {
+        "props": {
+            "text": "#### que estas buscando?\n VER TODO",
+            "preventHorizontalStretch": true
+        }
+    }
+}
