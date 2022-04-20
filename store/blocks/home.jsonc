@@ -1,5 +1,15 @@
 {
     "store.home": {
-        "blocks": ["flex-layout.row#promesas-slider-container"]
+        "blocks": ["list-context.image-list#evoluciona"]
     }
 }
+
+/*reto 1 sesion 3 -- slider
+    "flex-layout.row#promesas-slider-container"*/
+
+/*reto 2 sesion 3 -- listContext:
+    "list-context.image-list#evoluciona"*/
+
+/*reto 3 sesion 3:
+    "list-context.media-list#demo"
+    */

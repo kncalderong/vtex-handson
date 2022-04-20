@@ -1,0 +1,48 @@
+{
+    "list-context.image-list#evoluciona": {
+        "children": ["slider-layout#evoluciona-slider"],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-1",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-2",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "description": "evoluciona-image",
+                    "link": {
+                        "url": "categoria-3",
+                        "openNewTab": false
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#evoluciona-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 3500,
+                "stopOnHover": true
+            },
+            "infinite": true
+        }
+    }
+}
