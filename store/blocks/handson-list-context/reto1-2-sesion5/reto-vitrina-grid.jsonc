@@ -1,0 +1,46 @@
+{
+    "list-context.image-list#reto-moda": {
+        "title": "contenedor vitrina",
+        "children": ["list-context-renderer#reto-moda-wrapped"],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "https://imgur.com/5TKycho.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/kzF2tuC.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/M4tLgrn.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/XOYwFkE.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/3t2tV3u.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/mchi6Iv.jpg",
+                    "description": "evoluciona-image"
+                },
+                {
+                    "image": "https://imgur.com/Gz1Bfqt.jpg",
+                    "description": "evoluciona-image"
+                }
+            ]
+        }
+    },
+    "list-context-renderer#reto-moda-wrapped": {
+        "props": {
+            "listElement": "div",
+            "itemElement": "div",
+            "blockClass": "moda-vitrina"
+        }
+    }
+}

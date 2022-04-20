@@ -1,5 +1,11 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": ["list-context.image-list#reto-moda"]
     }
+
+    /*reto 1 sesion 5
+        "list-context.media-list#demo"
+  */
+    /*reto 2 sesion 5:  
+        "list-context.image-list#reto-moda"*/
 }
