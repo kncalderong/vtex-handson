@@ -1,0 +1,122 @@
+{
+    /*main*/
+    "drawer#menu": {
+        "children": ["drawer#hombre", "drawer#mujer"],
+        "blocks": ["drawer-header#main", "drawer-trigger"] /* ,
+        "props": {} */
+    },
+    "drawer-header#main": {
+        "children": ["flex-layout.row#main"]
+    },
+    "flex-layout.row#main": {
+        "children": ["drawer-close-button", "rich-text#main"],
+        "props": {
+            "blockClass": "row-main",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#main": {
+        "props": {
+            "text": "GUÍA DE TALLAS"
+        }
+    },
+    "drawer-trigger": {
+        "children": ["rich-text#open-drawer-size-guide"]
+    },
+    "rich-text#open-drawer-size-guide": {
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "image#content-size-image": {
+        "props": {
+            "src": "https://i.imgur.com/HLLiO8N.jpg"
+        }
+    },
+
+    /*Hombre*/
+    "drawer#hombre": {
+        "children": ["image#content-size-image"],
+        "blocks": ["drawer-header#hombre", "drawer-trigger#hombre"]
+    },
+    "drawer-header#hombre": {
+        "children": ["flex-layout.row#hombre"]
+    },
+    "flex-layout.row#hombre": {
+        "children": ["drawer-close-button", "rich-text#hombre"],
+        "props": {
+            "blockClass": "row-hombre",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#hombre": {
+        "props": {
+            "text": "GUÍA DE TALLAS HOMBRE"
+        }
+    },
+    "drawer-trigger#hombre": {
+        "children": ["flex-layout.row#trigger-hombre"]
+    },
+    "flex-layout.row#trigger-hombre": {
+        "children": ["rich-text#open-hombre", "image#trigger-hombre"],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "image#trigger-hombre": {
+        "props": {
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxHeight": 15
+        }
+    },
+    "rich-text#open-hombre": {
+        "props": {
+            "text": "HOMBRE"
+        }
+    },
+    /*Mujer*/
+    "drawer#mujer": {
+        "children": ["image#content-size-image"],
+        "blocks": ["drawer-header#mujer", "drawer-trigger#mujer"]
+    },
+    "drawer-header#mujer": {
+        "children": ["flex-layout.row#mujer"]
+    },
+    "flex-layout.row#mujer": {
+        "children": ["drawer-close-button", "rich-text#mujer"],
+        "props": {
+            "blockClass": "row-mujer",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#mujer": {
+        "props": {
+            "text": "GUÍA DE TALLAS MUJER"
+        }
+    },
+    "drawer-trigger#mujer": {
+        "children": ["flex-layout.row#trigger-mujer"]
+    },
+    "flex-layout.row#trigger-mujer": {
+        "children": ["rich-text#open-mujer", "image#trigger-mujer"],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "image#trigger-mujer": {
+        "props": {
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxHeight": 15
+        }
+    },
+    "rich-text#open-mujer": {
+        "props": {
+            "text": "MUJER"
+        }
+    }
+}

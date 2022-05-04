@@ -1,5 +1,13 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": ["rich-text#title", "drawer#menu"]
+    },
+    "rich-text#title": {
+        "props": {
+            "text": "Drawer challenge",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1"
+        }
     }
 }
