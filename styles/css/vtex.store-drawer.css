@@ -1,7 +1,7 @@
 @import url("../configs/global.css");
-.closeIconButton {
+/* .closeIconButton {
     background: url("https://i.imgur.com/kQkDqkr.png");
-}
+} */
 .childrenContainer {
     flex-direction: column;
 }

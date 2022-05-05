@@ -1,3 +1,11 @@
-/* :global(.vtex-store-drawer-0-x-closeIconButton svg) {
+:global(.vtex-store-drawer-0-x-closeIconButton svg) {
     display: none;
-} */
+}
+:global(.vtex-store-drawer-0-x-closeIconButton:before) {
+    content: "";
+    background: url("https://i.imgur.com/kQkDqkr.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
