@@ -1,0 +1,55 @@
+{
+    "menu-item#departamento1": {
+        "props": {
+            "id": "menu-item-departamento1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento1",
+                "text": "Departamento1"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamento1"] // Defining a submenu
+    },
+
+    /*aqui es donde se aconsejaría usar props en lugar de bloques*/
+    "vtex.menu@2.x:submenu#departamento1": {
+        "children": [
+            "flex-layout.row#categorias",
+            "flex-layout.row#categorias",
+            "flex-layout.row#categorias"
+        ]
+    },
+
+    /*basic category blocks*/
+    "flex-layout.row#categorias": {
+        "children": ["flex-layout.col#categorias"],
+        "props": {
+            "blockClass": "categorias-container",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#categorias": {
+        "children": [
+            "rich-text#categoria",
+            "rich-text#subcategoria",
+            "rich-text#subcategoria"
+        ],
+        "props": {
+            "blockClass": "categorias-col"
+        }
+    },
+    "rich-text#categoria": {
+        "props": {
+            "text": "**categoria**"
+        }
+    },
+    "rich-text#subcategoria": {
+        "props": {
+            "text": "subcategoria"
+        }
+    }
+}

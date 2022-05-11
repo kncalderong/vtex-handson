@@ -1,0 +1,13 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#departamento1",
+            "menu-item#departamento2",
+            "menu-item#departamento3",
+            "menu-item#departamento4",
+            "menu-item#departamento5",
+            "menu-item#departamento6",
+            "menu-item#departamento7"
+        ]
+    }
+}

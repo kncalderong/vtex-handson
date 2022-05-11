@@ -4,5 +4,18 @@
     },
     "header.full": {
         "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+
+    "header-layout.desktop": {
+        "children": ["header-row#1-desktop"]
+    },
+    "header-row#1-desktop": {
+        "children": ["vtex.menu@2.x:menu#websites"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "vtex.menu@2.x:menu#websites": {
+        "children": ["menu-item#departamento1", "menu-item#departamento2"]
     }
 }

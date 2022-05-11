@@ -1,10 +1,10 @@
 {
     "store.home": {
-        "blocks": ["rich-text#title", "drawer#menu"]
+        "blocks": ["rich-text#title"]
     },
     "rich-text#title": {
         "props": {
-            "text": "Drawer challenge",
+            "text": "Menu challenge",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1"

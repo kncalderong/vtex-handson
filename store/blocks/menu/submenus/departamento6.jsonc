@@ -1,0 +1,17 @@
+{
+    "menu-item#departamento6": {
+        "props": {
+            "id": "menu-item-departamento6",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento6",
+                "text": "Departamento6"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamento1"] // Defining a submenu
+    }
+}
