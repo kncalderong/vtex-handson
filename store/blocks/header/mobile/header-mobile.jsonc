@@ -1,0 +1,21 @@
+{
+    /*mobile*/
+    "header-layout.mobile": {
+        "children": ["header-row#1-mobile", "header-row#2-mobile"]
+    },
+    "header-row#1-mobile": {
+        "children": ["drawer#menu-mobile", "logo", "minicart.v2"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#2-mobile": {
+        "children": ["search-bar"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "drawer#menu-mobile": {
+        "children": ["vtex.menu@2.x:menu#mobile-accordion"]
+    }
+}

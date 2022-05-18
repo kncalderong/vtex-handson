@@ -1,0 +1,23 @@
+{
+    /*desktop*/
+    "header-layout.desktop": {
+        "children": ["header-row#1-desktop", "header-row#2-desktop"]
+    },
+    "header-row#1-desktop": {
+        "children": ["logo", "search-bar", "minicart.v2", "login"],
+        "props": {
+            "fullWidth": true,
+            "sticky": true
+        }
+    },
+    "header-row#2-desktop": {
+        "children": ["vtex.menu@2.x:menu#websites"],
+        "props": {
+            "fullWidth": true,
+            "sticky": true
+        }
+    },
+    "vtex.menu@2.x:menu#websites": {
+        "children": ["menu-item#departamento1", "menu-item#departamento2"]
+    }
+}

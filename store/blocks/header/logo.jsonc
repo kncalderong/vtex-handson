@@ -1,0 +1,13 @@
+{
+    "logo": {
+        "props": {
+            "url": "assets/Blacksip.svg",
+            "width": 127,
+            "height": 34,
+            "mobileWidth": 98,
+            "mobileHeight": 27,
+            "title": "vendorLogo",
+            "href": "/"
+        }
+    }
+}
