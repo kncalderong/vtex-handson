@@ -6,16 +6,105 @@
         "blocks": ["header-layout.desktop", "header-layout.mobile"]
     },
 
+    /*desktop*/
     "header-layout.desktop": {
-        "children": ["header-row#1-desktop"]
+        "children": ["header-row#1-desktop", "header-row#2-desktop"]
     },
     "header-row#1-desktop": {
+        "children": ["logo"],
+        "props": {
+            "fullWidth": true,
+            "sticky": true
+        }
+    },
+    "header-row#2-desktop": {
         "children": ["vtex.menu@2.x:menu#websites"],
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "sticky": true
         }
     },
     "vtex.menu@2.x:menu#websites": {
         "children": ["menu-item#departamento1", "menu-item#departamento2"]
+    },
+
+    "logo": {
+        "props": {
+            "url": "assets/Blacksip.svg",
+            "width": 98,
+            "title": "vendorLogo",
+            "href": "/"
+        }
+    },
+
+    /*mobile*/
+    "header-layout.mobile": {
+        "children": ["header-row#1-mobile"]
+    },
+    "header-row#1-mobile": {
+        "children": ["drawer#menu-mobile", "logo"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "drawer#menu-mobile": {
+        "children": ["vtex.menu@2.x:menu#mobile-accordion"]
+    },
+
+    "vtex.menu@2.x:menu#mobile-accordion": {
+        "title": "accordion menu mobile",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shop",
+                        "text": "Enlace01"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "about-us",
+                        "text": "Enlace02"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "about-us",
+                        "text": "Enlace03"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "about-us",
+                        "text": "Enlace04"
+                    }
+                }
+            ]
+        }
     }
 }
