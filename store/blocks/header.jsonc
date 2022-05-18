@@ -11,7 +11,7 @@
         "children": ["header-row#1-desktop", "header-row#2-desktop"]
     },
     "header-row#1-desktop": {
-        "children": ["logo", "search-bar"],
+        "children": ["logo", "search-bar", "minicart.v2"],
         "props": {
             "fullWidth": true,
             "sticky": true
@@ -36,19 +36,24 @@
             "href": "/"
         }
     },
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
+    },
     "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
         "props": {
+            "openAutocompleteOnFocus": true,
             "placeholder": "¿Qué producto buscas?",
-            "maxWidth": 527
+            "maxWidth": 500,
+            "displayMode": "search-button"
         }
     },
-
     /*mobile*/
     "header-layout.mobile": {
         "children": ["header-row#1-mobile", "header-row#2-mobile"]
     },
     "header-row#1-mobile": {
-        "children": ["drawer#menu-mobile", "logo"],
+        "children": ["drawer#menu-mobile", "logo", "minicart.v2"],
         "props": {
             "fullWidth": true
         }
