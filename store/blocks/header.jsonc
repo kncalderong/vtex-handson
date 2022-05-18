@@ -11,7 +11,7 @@
         "children": ["header-row#1-desktop", "header-row#2-desktop"]
     },
     "header-row#1-desktop": {
-        "children": ["logo"],
+        "children": ["logo", "search-bar"],
         "props": {
             "fullWidth": true,
             "sticky": true
@@ -36,13 +36,25 @@
             "href": "/"
         }
     },
+    "search-bar": {
+        "props": {
+            "placeholder": "¿Qué producto buscas?",
+            "maxWidth": 527
+        }
+    },
 
     /*mobile*/
     "header-layout.mobile": {
-        "children": ["header-row#1-mobile"]
+        "children": ["header-row#1-mobile", "header-row#2-mobile"]
     },
     "header-row#1-mobile": {
         "children": ["drawer#menu-mobile", "logo"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#2-mobile": {
+        "children": ["search-bar"],
         "props": {
             "fullWidth": true
         }
