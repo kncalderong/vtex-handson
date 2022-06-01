@@ -1,0 +1,16 @@
+.wishlistIconContainer {
+    position: absolute;
+    right: 11px;
+    top: 178px;
+}
+.wishlistIconContainer :global(.vtex-button) {
+    min-height: 0;
+}
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+.wishlistIcon {
+    width: 17px;
+    height: 17px;
+    background: url("assets/wishlist-icon.svg");
+}

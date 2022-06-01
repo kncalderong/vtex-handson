@@ -1,40 +1,50 @@
 {
- "list-context.product-list#demo-handson":{
-  "blocks":["product-summary.shelf#productos"],
-  "children":["slider-layout#vitrina-handson"]
- },
- "slider-layout#vitrina-handson":{
-  "props":{
-   "centerMode":{
-    "phone":"to-the-left"
-   }
-  }
- },
- "product-summary.shelf#productos": {
+    "list-context.product-list#demo-handson": {
+        "blocks": ["product-summary.shelf#productos"],
+        "children": ["slider-layout#vitrina-handson"]
+    },
+    "slider-layout#vitrina-handson": {
+        "props": {
+            "centerMode": {
+                "phone": "to-the-left"
+            },
+            "showPaginationDots": "never",
+            "centerModeSlidesGap": 20
+        }
+    },
+    "product-summary.shelf#productos": {
         "children": [
-            "product-summary-add-to-list-button",
-            "product-summary-name",
             "product-summary-image",
-            "product-rating-inline",
-            "product-summary-space",
-            "product-summary-price",
-            "product-identifier.summary",
+            "add-to-list-btn",
+            "modal-trigger#quickview",
+            "product-summary-brand",
+            "product-summary-name",
+            "product-selling-price",
             "add-to-cart-button"
         ]
     },
-  "list-context.product-list#using-renderer":{
-   "blocks":["product-summary.shelf#productos"],
-   "children":["list-context-renderer#wrapped"]
-  },
-  "list-context-renderer#wrapped":{
-   "props":{
-    "listElement":"ul",
-    "itemElement":"li"
-   }
-  },
-  "image#img-1":{
-   "props":{
-    "src":"https://imgur.com/5TKycho.jpg"
-   }
-  }
+
+    "product-summary-image": {
+        "props": {
+            "showBadge": true,
+            "height": 206,
+            "width": 206
+        }
+    },
+    /*using renderer*/
+    "list-context.product-list#using-renderer": {
+        "blocks": ["product-summary.shelf#productos"],
+        "children": ["list-context-renderer#wrapped"]
+    },
+    "list-context-renderer#wrapped": {
+        "props": {
+            "listElement": "ul",
+            "itemElement": "li"
+        }
+    },
+    "image#img-1": {
+        "props": {
+            "src": "https://imgur.com/5TKycho.jpg"
+        }
+    }
 }
