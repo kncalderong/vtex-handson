@@ -1,0 +1,137 @@
+{
+    "flex-layout.row#footer-menu-mobile": {
+        "title": "Seccion de menus - Footer Desktop",
+        "children": ["menu#container-menu-mobile-footer"],
+        "props": {
+            "blockClass": ["menu-col-footer", "footer-menu-mobile"],
+            "fullWidth": true
+        }
+    },
+
+    "menu#container-menu-mobile-footer": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["c-white", "container-menu-mobile-footer"]
+        },
+        "children": [
+            "disclosure-layout-group#footer-mobile-disclosure-help-we-shops"
+        ]
+    },
+    "disclosure-layout-group#footer-mobile-disclosure-help-we-shops": {
+        "children": [
+            "disclosure-layout#footer-mobile-help",
+            "disclosure-layout#footer-mobile-we-info",
+            "disclosure-layout#footer-mobile-shops"
+        ]
+    },
+
+    //---------------------------------- Menu Ayuda --------------------------------//
+    "disclosure-layout#footer-mobile-help": {
+        "children": [
+            "disclosure-trigger#footer-mobile-help",
+            "disclosure-content#footer-mobile-help"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-help",
+                "footer-mobile-collapsible-disclosure"
+            ]
+        }
+    },
+    "disclosure-trigger#footer-mobile-help": {
+        "children": ["rich-text#title-help-footer"],
+        "props": {
+            "blockClass": [
+                "footer-mobile-help",
+                "footer-mobile-collapsible-trigger"
+            ]
+        }
+    },
+    "disclosure-content#footer-mobile-help": {
+        "children": [
+            "rich-text#text-1-help-footer",
+            "rich-text#text-2-help-footer",
+            "rich-text#text-3-help-footer",
+            "rich-text#text-4-help-footer",
+            "rich-text#text-5-help-footer"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-help",
+                "footer-mobile-collapsible-content"
+            ]
+        }
+    },
+
+    //---------------------------------- Menu Nosotros --------------------------------//
+    "disclosure-layout#footer-mobile-we-info": {
+        "children": [
+            "disclosure-trigger#footer-mobile-we-info",
+            "disclosure-content#footer-mobile-we-info"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-we-info",
+                "footer-mobile-collapsible-disclosure"
+            ]
+        }
+    },
+    "disclosure-trigger#footer-mobile-we-info": {
+        "children": ["rich-text#title-we-footer"],
+        "props": {
+            "blockClass": [
+                "footer-mobile-we-info",
+                "footer-mobile-collapsible-trigger"
+            ]
+        }
+    },
+    "disclosure-content#footer-mobile-we-info": {
+        "children": [
+            "rich-text#text-1-we-footer",
+            "rich-text#text-2-we-footer",
+            "rich-text#text-3-we-footer"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-we-info",
+                "footer-mobile-collapsible-content"
+            ]
+        }
+    },
+    //---------------------------------- Menu Tiendas en Línea --------------------------------//
+    "disclosure-layout#footer-mobile-shops": {
+        "children": [
+            "disclosure-trigger#footer-mobile-shops",
+            "disclosure-content#footer-mobile-shops"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-shops",
+                "footer-mobile-collapsible-disclosure"
+            ]
+        }
+    },
+    "disclosure-trigger#footer-mobile-shops": {
+        "children": ["rich-text#title-online-shop-footer"],
+        "props": {
+            "blockClass": [
+                "footer-mobile-shops",
+                "footer-mobile-collapsible-trigger"
+            ]
+        }
+    },
+    "disclosure-content#footer-mobile-shops": {
+        "children": [
+            "rich-text#text-1-online-shop-footer",
+            "rich-text#text-2-online-shop-footer",
+            "rich-text#text-3-online-shop-footer",
+            "rich-text#text-4-online-shop-footer"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-mobile-shops",
+                "footer-mobile-collapsible-content"
+            ]
+        }
+    }
+}

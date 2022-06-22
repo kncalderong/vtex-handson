@@ -1,0 +1,242 @@
+{
+    //--------------------------------------Submenu Contactanos --------------------------------//
+    "rich-text#title-contact-footer": {
+        "props": {
+            "text": "Contáctanos",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["title-menu-footer"]
+        }
+    },
+
+    "rich-text#text-1-contact-footer": {
+        "props": {
+            "text": "Ventas por teléfono<a class='vtex-rich-text-0-x-link--text-menu-footer' href='tel:8003456789' >&nbsp;**800-345 6789**</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer"]
+        }
+    },
+
+    "rich-text#text-2-contact-footer": {
+        "props": {
+            "text": "Línea de atención por WhatsApp <br> <a class='vtex-rich-text-0-x-link--text-menu-footer' href='https://api.whatsapp.com/send?phone=573012345678' target='__blank'>**301 234 5678**</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": [
+                "display-block",
+                "text-menu-footer",
+                "footer-wathsapp"
+            ]
+        }
+    },
+
+    "rich-text#localitation-footer": {
+        "title": "Icono Menu Nuestras Tiendas - Footer",
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' target='__blank'> ![](assets/footer/maps-icon.svg) **Nuestras Tiendas**</a>",
+            "blockClass": ["text-menu-footer", "footer-location"]
+        }
+    },
+
+    //----------------------------Social Networks-------------------//
+    "rich-text#title-follow-footer": {
+        "props": {
+            "text": "Siguenos en",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["padding-top", "title-menu-footer"]
+        }
+    },
+    "flex-layout.row#social-networkrs-footer": {
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass": ["flex-start", "social-networkrs-footer"]
+        },
+        "children": [
+            "image#social-network-1-footer",
+            "image#social-network-2-footer",
+            "image#social-network-3-footer"
+        ]
+    },
+
+    "image#social-network-1-footer": {
+        "props": {
+            "blockClass": ["social-network-footer"],
+            "maxWidth": 20,
+            "maxHeight": 20,
+            "src": "assets/footer/facebook-icon.svg",
+            "link": {
+                "url": "https://www.facebook.com/BlackSipOnline/",
+                "newTab": true
+            },
+            "title": "Facebook - BlackSip"
+        }
+    },
+
+    "image#social-network-2-footer": {
+        "props": {
+            "blockClass": ["social-network-footer"],
+            "maxWidth": 20,
+            "maxHeight": 20,
+            "src": "assets/footer/instagram-icon.svg",
+            "link": {
+                "url": "https://www.instagram.com/blacksiponline/",
+                "newTab": true
+            },
+            "title": "Instagram - BlackSip"
+        }
+    },
+
+    "image#social-network-3-footer": {
+        "props": {
+            "blockClass": ["social-network-footer"],
+            "maxWidth": 20,
+            "maxHeight": 20,
+            "src": "assets/footer/whatsapp-icon.svg",
+            "link": {
+                "url": "https://api.whatsapp.com/send?phone=573156164959&text=Hola,%20buen%20día",
+                "newTab": true
+            },
+            "title": "WhatsApp - BlackSip"
+        }
+    },
+
+    //--------------------------------------Submenu Ayuda --------------------------------//
+    "rich-text#title-help-footer": {
+        "props": {
+            "text": "Ayuda",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["title-menu-footer"]
+        }
+    },
+
+    "rich-text#text-1-help-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Preguntas frecuentes</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    "rich-text#text-2-help-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Políticas de pago</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+    "rich-text#text-3-help-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Políticas de envío</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    "rich-text#text-4-help-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Condiciones de Cambio</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    "rich-text#text-5-help-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Políticas de Garantías</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    //--------------------------------------Submenu Nostros --------------------------------//
+    "rich-text#title-we-footer": {
+        "props": {
+            "text": "Nosotros",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["title-menu-footer"]
+        }
+    },
+
+    "rich-text#text-1-we-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Quiénes Somos</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    "rich-text#text-2-we-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Aviso de Privacidad</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+    "rich-text#text-3-we-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Términos y Condiciones</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    //--------------------------------------Submenu Tienda en Línea--------------------------------//
+    "rich-text#title-online-shop-footer": {
+        "props": {
+            "text": "Tiendas en Línea",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["title-menu-footer"]
+        }
+    },
+
+    "rich-text#text-1-online-shop-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Enlace 01</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+
+    "rich-text#text-2-online-shop-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Enlace 02</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+    "rich-text#text-3-online-shop-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Enlace 03</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    },
+    "rich-text#text-4-online-shop-footer": {
+        "props": {
+            "text": "<a class='vtex-rich-text-0-x-link--text-menu-footer' href='#' >Enlace 04</a>",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-menu-footer", "footer-accordion-text"]
+        }
+    }
+}

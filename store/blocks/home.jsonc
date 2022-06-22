@@ -1,11 +1,5 @@
 {
     "store.home": {
-        "blocks": ["list-context.product-list#demo-handson"]
+        "blocks": []
     }
-
-    /*reto 1 sesion 5
-        "list-context.media-list#demo"
-  */
-    /*reto 2 sesion 5:  
-        "list-context.image-list#reto-moda"*/
 }

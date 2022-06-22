@@ -1,0 +1,7 @@
+{
+    "accepted-payment-methods#footer": {
+        "props": {
+            "paymentMethods": ["mastercard", "visa", "diners club"]
+        }
+    }
+}

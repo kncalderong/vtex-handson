@@ -1,0 +1,97 @@
+{
+    "flex-layout.row#footer-newsletter-form": {
+        "title": "newsletter-form-footer",
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "footer-newsletter-form"
+        },
+        "children": [
+            "rich-text#footer-promo",
+            "newsletter-form#footer-newsletter"
+        ]
+    },
+
+    "rich-text#footer-promo": {
+        "props": {
+            "text": "**¡Contáctanos!**\n ¿Quieres hablar con el equipo de ventas o prefieres escribirnos a sales@blacksip.com",
+            "textPosition": "CENTER",
+            "blockClass": ["text-promo-footer"]
+        }
+    },
+
+    "newsletter-form#footer-newsletter": {
+        "title": "Elementos Newsletter - Footer",
+        "props": {
+            "blockClass": "footer-newsletter",
+            "SuccessState": "rich-text#footer-successSubmit"
+        },
+        "children": [
+            "flex-layout.row#footer-container-input-submit",
+            "flex-layout.row#footer-container-checkbox"
+        ]
+    },
+
+    "flex-layout.row#footer-container-input-submit": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "footer-container-input-submit"
+        },
+        "children": [
+            "newsletter-input-email#footer",
+            "newsletter-submit#footer"
+        ]
+    },
+
+    "flex-layout.row#footer-container-checkbox": {
+        "props": {
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": ["flex-start", "footer-container-checkbox"]
+        },
+        "children": [
+            "newsletter-checkbox-confirmation#footer",
+            "rich-text#terms"
+        ]
+    },
+
+    "newsletter-input-email#footer": {
+        "title": "Campo Email Newsletter - Footer",
+        "props": {
+            "blockClass": "input-email-footer",
+            "placeholderText": "Ingrese su email"
+        }
+    },
+
+    "newsletter-submit#footer": {
+        "title": "Boton Suscribirse Newsletter - Footer",
+        "props": {
+            "blockClass": "button-suscribe-footer",
+            "submitButtonLabel": "Enviar"
+        }
+    },
+
+    "newsletter-checkbox-confirmation#footer": {
+        "title": "Checkbox Newslleter - Footer",
+        "props": {
+            "checkboxLabel": "",
+            "blockClass": "input-checkbox-footer"
+        }
+    },
+
+    "rich-text#terms": {
+        "props": {
+            "text": "Acepto tratamiento de datos personales",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["text-terms"]
+        }
+    },
+    "rich-text#footer-successSubmit": {
+        "props": {
+            "text": "¡Gracias! Tu registro se ha completado con éxito",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer-successSubmit"
+        }
+    }
+}

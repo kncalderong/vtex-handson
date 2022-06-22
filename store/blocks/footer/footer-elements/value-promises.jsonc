@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#footer-value-promises": {
+        "children": ["slider-layout#footer-value-promises"],
+        "props": {
+            "blockClass": "footer-value-promises"
+        }
+    },
+    "slider-layout#footer-value-promises": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "blockClass": "footer-value-promises"
+        },
+        "children": [
+            "flex-layout.row#footer-promise-security",
+            "flex-layout.row#footer-promise-payment",
+            "flex-layout.row#footer-promise-delivery"
+        ]
+    },
+    "flex-layout.row#footer-promise-security": {
+        "children": [
+            "image#footer-promise-security",
+            "rich-text#footer-promise-security"
+        ],
+        "props": {
+            "blockClass": "footer-promise-security"
+        }
+    },
+
+    "image#footer-promise-security": {
+        "title": "footer-promise-security",
+        "props": {
+            "src": "assets/footer/Security.svg",
+            "alt": "footer-promise-security",
+            "maxHeight": 50,
+            "maxWidth": 50,
+            "blockClass": "footer-promise-security"
+        }
+    },
+    "rich-text#footer-promise-security": {
+        "title": "footer-promise-security",
+        "props": {
+            "text": "**Promesas de Valor**\n Seguridad"
+        }
+    },
+    "flex-layout.row#footer-promise-delivery": {
+        "children": [
+            "image#footer-promise-delivery",
+            "rich-text#footer-promise-delivery"
+        ],
+        "props": {
+            "blockClass": "footer-promise-delivery"
+        }
+    },
+
+    "image#footer-promise-delivery": {
+        "title": "footer-promise-delivery",
+        "props": {
+            "src": "assets/footer/Delivery.svg",
+            "alt": "footer-promise-delivery",
+            "maxHeight": 50,
+            "maxWidth": 50,
+            "blockClass": "footer-promise-payment"
+        }
+    },
+    "rich-text#footer-promise-delivery": {
+        "title": "footer-promise-delivery",
+        "props": {
+            "text": "**Promesas de Valor**\n Medios de pago"
+        }
+    },
+    "flex-layout.row#footer-promise-payment": {
+        "children": [
+            "image#footer-promise-payment",
+            "rich-text#footer-promise-payment"
+        ],
+        "props": {
+            "blockClass": "footer-promise-payment"
+        }
+    },
+
+    "image#footer-promise-payment": {
+        "title": "footer-promise-payment",
+        "props": {
+            "src": "assets/footer/Payment.svg",
+            "alt": "footer-promise-payment",
+            "maxHeight": 50,
+            "maxWidth": 50,
+            "blockClass": "footer-promise-payment"
+        }
+    },
+    "rich-text#footer-promise-payment": {
+        "title": "footer-promise-payment",
+        "props": {
+            "text": "**Promesas de Valor**\n Medios de pago"
+        }
+    }
+}

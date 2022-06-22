@@ -6,7 +6,7 @@
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
-    "assets":"0.x"
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -52,7 +52,9 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.modal-layout": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.store-newsletter": "1.x",
+     "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

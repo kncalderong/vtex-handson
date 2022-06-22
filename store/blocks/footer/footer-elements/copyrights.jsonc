@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#copyright-footer": {
+        "title": "Pie de pagina - Footer Desktop",
+        "props": {
+            "colSizing": "auto",
+            "blockClass": ["bgc-white", "container-copyright-footer"]
+        },
+        "children": [
+            "responsive-layout.desktop#copyright-footer",
+            "responsive-layout.mobile#copyright-footer"
+        ]
+    },
+
+    "responsive-layout.desktop#copyright-footer": {
+        "children": ["rich-text#text-copyright-footer"]
+    },
+
+    "responsive-layout.mobile#copyright-footer": {
+        "children": ["rich-text#text-copyright-mobile-footer"]
+    },
+
+    "rich-text#text-copyright-footer": {
+        "props": {
+            "text": "BlackSip 2022 © Todos los derechos reservados  |  Empowered By ![BlackSip](assets/footer/icon-blacksip-black.svg)![VTEX](assets/footer/icon-vtex-black.svg)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["text-copyright-footer"]
+        }
+    },
+
+    //----------------------------Cpyright Mobile---------------------------///
+
+    "rich-text#text-copyright-mobile-footer": {
+        "props": {
+            "text": "© Todos los derechos reservados Empowered By ![BlackSip](assets/footer/icon-blacksip-black.svg)![VTEX](assets/footer/icon-vtex-black.svg)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["text-copyright-footer"]
+        }
+    }
+}

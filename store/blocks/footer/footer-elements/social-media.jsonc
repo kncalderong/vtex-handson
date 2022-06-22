@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#footer-social-media": {
+        "children": ["social-networks#footer-social-media"],
+        "props": {
+            "blockClass": "social-networks#footer-social-media"
+        }
+    },
+    "social-networks#footer-social-media": {
+        "props": {
+            "socialNetworks": [
+                { "url": "https://facebook.com/foo", "name": "Facebook" },
+                { "url": "https://Instagram.com/foo", "name": "Twitter" },
+                {
+                    "url": "https://api.whatsapp.com/send?phone=573012345678",
+                    "name": "Pinterest"
+                }
+            ]
+        }
+    }
+}
